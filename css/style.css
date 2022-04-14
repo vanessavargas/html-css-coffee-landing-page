@@ -59,7 +59,14 @@
   border: 1px solid black;
   margin: 0;
   display: flex;
-  marigin
+  margin-bottom: 10px;
+}
+
+.container-jc-col {
+  width: 100%;
+  border: 1px solid black;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 .item-jc {
@@ -67,4 +74,29 @@
   margin: 5px;
   text-align: center;
   color: white;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.column {
+  flex-direction: column;
+  min-height: 200px;
 }
