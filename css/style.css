@@ -1,8 +1,9 @@
 .flex {
-  max-width: 300px;
+  max-width: 200px;
   padding: 10px;
   border: 2px solid black;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .item {
@@ -51,4 +52,19 @@
 
 .column-reverse li {
   background: green;
+}
+
+.container-jc {
+  max-width: 400px;
+  border: 1px solid black;
+  margin: 0;
+  display: flex;
+  marigin
+}
+
+.item-jc {
+  background-color: blueviolet;
+  margin: 5px;
+  text-align: center;
+  color: white;
 }
