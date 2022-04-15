@@ -188,3 +188,21 @@
 .space-between-ac {
   align-content: space-between;
 }
+
+.flex-container {
+  display: flex;
+  border: 2px solid black;
+  max-width: 300px;
+}
+
+.item-fc {
+  background-color: orangered;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.fg-0 {
+  flex-grow: 0;
+}
