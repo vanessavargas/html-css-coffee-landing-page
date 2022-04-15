@@ -218,3 +218,18 @@
 .fg-3 {
   flex-grow: 3;
 }
+
+.item-fb {
+  background-color: coral;
+  color: white;
+  text-align: center;
+  margin: 5px;
+}
+
+.bauto {
+  flex-basis: auto;
+}
+
+.b-0 {
+  flex-basis: 0;
+}
