@@ -244,3 +244,16 @@
 .s-1 {
   flex-shrink: 1;
 }
+
+.item-f {
+  background-color: yellowgreen;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  margin: 5px;
+}
+
+.flex-1 {
+  flex: 1;
+  /* grow = 1; shrink = 1; basis = 0 */
+}
