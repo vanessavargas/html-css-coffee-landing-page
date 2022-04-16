@@ -257,3 +257,15 @@
   flex: 1;
   /* grow = 1; shrink = 1; basis = 0 */
 }
+
+.o-1 {
+  order: 1;
+}
+
+.o-2 {
+  order: 2;
+}
+
+.o-3 {
+  order: 3;
+}
