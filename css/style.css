@@ -269,3 +269,45 @@
 .o-3 {
   order: 3;
 }
+
+.flex-container-as {
+  max-width: 350px;
+  border: 1px solid;
+  margin-bottom: 10px;
+  display: flex;
+}
+.align-container {
+  align-items: center;
+}
+
+.item-as {
+  background-color: violet;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  margin: 5px;
+}
+
+.center-as {
+  align-self: center;
+}
+
+.start-as {
+  align-self: flex-start;
+}
+
+.end-as {
+  align-self: flex-end;
+}
+
+.baseline-as {
+  align-self: baseline;
+}
+
+.stretch-as {
+  align-self: stretch;
+}
+
+.auto-as {
+  align-self: auto;
+}
