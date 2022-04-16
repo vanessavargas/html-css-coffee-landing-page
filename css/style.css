@@ -233,3 +233,14 @@
 .b-0 {
   flex-basis: 0;
 }
+
+.item-fs {
+  background-color: aquamarine;
+  font-size: 24px;
+  text-align: center;
+  margin: 5px;
+}
+
+.s-1 {
+  flex-shrink: 1;
+}
