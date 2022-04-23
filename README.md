@@ -3,6 +3,8 @@
 O resultado final foi baseado no desafio de CSS Flexbox, no curso realizado na plataforma da DIO - Digital Inovation One. Foi utilizando a estrutura inicial fornecida, e para modificar o layout final, busquei criar uma página em torno de um assunto que gosto muito: o café! Além da pesquisa do conteúdo, alterei algumas estilizações, e adicionei a tag audio, para inseir som na página, e também pop-ups acionados pelos botões nos campos de preparo de café.
 ![Mockups](https://github.com/VanessaVargas/html-developer-DIO/blob/master/img/mockup-cafe.png)
 
+https://youtu.be/uDHxs9ECcr0
+
 ## O desenvolvimento
 
 Este repositório foi utilizado para as atividades desenvolvidas durante o estudo do módulos com conteúdo de **HTML5, CSS3, Bootstrap e Flexbox**, realizados na plataforma da DIO - Digital Inovation One, tendo sido alterado ao longo dos meses, até chegar ao resultado apresentado. As propostas de cada etapa:
