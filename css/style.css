@@ -22,19 +22,18 @@ body {
 header,
 .btn,
 .container-externo,
-.item-plano h3::after,
-.item-plano ul li::before,
+.item-curiosidade h3::after,
 footer {
   background: #7b341b;
 }
 
-ul {
+header ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-ul li a {
+header ul li a {
   text-decoration: none;
 }
 
@@ -126,12 +125,12 @@ header .menu {
 .apresentacao div,
 #tipos-cafe div,
 #metodos div,
-#planos div {
+#curiosidade div {
   padding: 20px;
 }
 
 #tipos-cafe h2,
-#planos h2 {
+#curiosidade h2 {
   font-size: 32px;
   color: #902b05;
   display: flex;
@@ -139,7 +138,7 @@ header .menu {
 }
 
 #tipos-cafe h2::before,
-#planos h2::before {
+#curiosidade h2::before {
   content: "";
   height: 50px;
   width: 5px;
@@ -204,18 +203,18 @@ header .menu {
   margin: auto;
 }
 
-#planos {
+#curiosidade {
   flex-direction: column;
   min-height: 100vh;
 }
 
-.list-planos {
+.list-curiosidade {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
 }
 
-.item-plano {
+.item-curiosidade {
   flex: 1;
   border: 2px solid #902b05;
   margin-right: 20px;
@@ -224,12 +223,7 @@ header .menu {
   margin-bottom: 20px;
 }
 
-.item-plano .btn {
-  margin: auto;
-  margin-bottom: 20px;
-}
-
-.item-plano h3 {
+.item-curiosidade h3 {
   font-size: 24px;
   display: flex;
   flex-direction: column;
@@ -237,7 +231,7 @@ header .menu {
   margin-top: 20px;
 }
 
-.item-plano h3::after {
+.item-curiosidade h3::after {
   content: "";
   width: 100%;
   height: 3px;
@@ -245,24 +239,25 @@ header .menu {
   margin-bottom: 10px;
 }
 
-.item-plano ul {
+.item-curiosidade ul {
   padding: 10px 20px;
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
 }
 
-.item-plano ul li {
+.item-curiosidade ul li {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.item-plano ul li::before {
+.item-curiosidade ul li::before {
   content: "";
   width: 10px;
   height: 10px;
   margin-right: 5px;
+  background: #5d2511;
 }
 
 footer .footer {
@@ -295,11 +290,11 @@ footer .footer {
     width: 50%;
     margin: auto;
   }
-  .list-planos {
+  .list-curiosidade {
     flex-direction: column;
     align-items: flex-start;
   }
-  .list-planos .item-plano {
+  .list-curiosidade .item-curiosidade {
     max-width: 90%;
     margin: auto;
     width: 100%;
