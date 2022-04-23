@@ -205,7 +205,6 @@ header .menu {
 
 #curiosidade {
   flex-direction: column;
-  min-height: 100vh;
 }
 
 .list-curiosidade {
@@ -265,43 +264,6 @@ footer .footer {
   color: white;
 }
 
-/*mobile*/
-@media (max-width: 992px) {
-  .flex-container {
-    flex-direction: column;
-  }
-  .apresentacao {
-    flex-direction: column-reverse;
-  }
-  .apresentacao .text-apresentacao {
-    width: 100%;
-  }
-  #tipos-cafe {
-    flex-direction: column-reverse;
-  }
-  #tipos-cafe img {
-    min-width: 320px;
-    margin: auto;
-  }
-  .list-metodos {
-    flex-direction: column;
-  }
-  .item-metodos img {
-    width: 50%;
-    margin: auto;
-  }
-  .list-curiosidade {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .list-curiosidade .item-curiosidade {
-    max-width: 90%;
-    margin: auto;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-}
-
 .modalDialog {
   position: fixed;
   top: 0;
@@ -358,4 +320,56 @@ footer .footer {
 }
 .close:hover {
   background: #ccc;
+}
+
+/*mobile*/
+@media (max-width: 992px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  header {
+    height: 120px;
+  }
+  header div {
+    align-items: center;
+  }
+  header audio {
+    padding: 10px 10px;
+  }
+  .apresentacao {
+    flex-direction: column-reverse;
+  }
+  .apresentacao .text-apresentacao {
+    width: 100%;
+  }
+  #tipos-cafe {
+    flex-direction: column-reverse;
+  }
+  #tipos-cafe img {
+    min-width: 320px;
+    margin: auto;
+  }
+  .list-metodos {
+    flex-direction: column;
+  }
+  .item-metodos .img-metodos {
+    width: 40%;
+    margin: auto;
+  }
+  .item-metodos .img-metodos img {
+    width: 60%;
+  }
+  .list-curiosidade {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .list-curiosidade .item-curiosidade {
+    max-width: 90%;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .modalDialog div {
+    width: 300px;
+  }
 }

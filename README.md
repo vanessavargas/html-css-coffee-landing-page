@@ -1,26 +1,19 @@
 # Sobre o projeto
 
-Atividades desenvolvidas durante o estudo do módulos com conteúdo de **HTML5, CSS3, Bootstrap e Flexbox**, realizados na plataforma da DIO - Digital Inovation One.
+O resultado final foi baseado no desafio de CSS Flexbox, no curso realizado na plataforma da DIO - Digital Inovation One. Foi utilizando a estrutura inicial fornecida, e para modificar o layout final, busquei criar uma página em torno de um assunto que gosto muito: o café! Além da pesquisa do conteúdo, alterei algumas estilizações, e adicionei a tag audio, para inseir som na página, e também pop-ups acionados pelos botões nos campos de preparo de café.
+![Mockups](https://github.com/VanessaVargas/html-developer-DIO/img/mockup-cafe.png)
 
-### Propostas de cada módulo
+## O desenvolvimento
+
+Este repositório foi utilizado para as atividades desenvolvidas durante o estudo do módulos com conteúdo de **HTML5, CSS3, Bootstrap e Flexbox**, realizados na plataforma da DIO - Digital Inovation One, tendo sido alterado ao longo dos meses, até chegar ao resultado apresentado. As propostas de cada etapa:
 
 - HTML e CSS básico: elaboração de um currículo;
 - Bootstrap: elaboração de uma página de uma empresa;
 - Flexbox em CSS: criação de uma landpage (repositório com estrutura em html disponível em: https://gitlab.com/karensantos/project-flexbox-dio).
 
-# Projeto desenvolvido
-
-O projeto final desenvolvido foi uma junção dos conhecimentos adquiridos. Foram utilizados como base o repositório. A medida que fui aprendendo e colocando os conhecimentos em prática, resolvi criar uma página sobre um destino turístico muito cobiçado no mundo inteiro: a Grécia.
-![Mockups](https://github.com/VanessaVargas/html-developer-DIO/blob/master/Layout.png)
-
-# Ferramentas utilizadas
-
-Banco de imagens: Pexels, Freepik
-
-# Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - HTML
 - CSS
-- Bootstrap
 
 #### ✨ Desenvolvido por Vanessa Vargas ✨
