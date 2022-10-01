@@ -3,6 +3,7 @@ import "../../css/style.css";
 import Footer from "./components/Footer";
 
 import Header from './components/Header';
+import ListCards from "./components/ListCards";
 
 export default function Home() {
     return (
@@ -64,115 +65,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="container-externo">
-        <section>
-          <div className="flex-container" id="metodos">
-            <div>
-              <h2>Métodos de Preparo</h2>
-            </div>
-
-            <div className="list-metodos">
-              <div className="item-metodos">
-                <div className="img-metodos">
-                  <img
-                    src="assets/img/ebulicao.png"
-                    alt="metodo de preparo de cafe por ebulicao"
-                  />
-                </div>
-                <p>Ebulição (Boiling)</p>
-                <a href="#openModal1">Como funciona?</a>
-
-                <div id="openModal1" className="modalDialog">
-                  <div>
-                    <a href="#close" title="Close" className="close">X</a>
-                    <h3 className="text-modal">Ebulição</h3>
-                    <p className="text-modal">
-                      Comum na Europa, se baseia na adição do pó de café no
-                      centro de um equipamento moka, que fica na chama do fogão
-                      e faz com que a água da parte inferior entre em ebulição e
-                      pressione o café líquido para algum recipiente.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="item-metodos">
-                <div className="img-metodos">
-                  <img
-                    src="assets/img/filtragem.png"
-                    alt="metodo de preparo de cafe por filtragem"
-                  />
-                </div>
-                <p>Filtragem (Filtration)</p>
-                <a href="#openModal2">Como funciona?</a>
-
-                <div id="openModal2" className="modalDialog">
-                  <div>
-                    <a href="#close" title="Close" className="close">X</a>
-                    <h3 className="text-modal">Filtragem</h3>
-                    <p className="text-modal">
-                      Tradicional no Brasil, presente dos coadores caseiros às
-                      cafeteiras elétricas, consiste na adição de água quente,
-                      mas não fervente, sobre o pó de café, o qual fica
-                      acondicionado em um filtro de papel ou pano.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="item-metodos">
-                <div className="img-metodos">
-                  <img
-                    src="assets/img/infusao.png"
-                    alt="metodo de preparo de cafe por infusao"
-                  />
-                </div>
-                <p>Infusão (Steeping)</p>
-                <a href="#openModal3">Como funciona?</a>
-
-                <div id="openModal3" className="modalDialog">
-                  <div>
-                    <a href="#close" title="Close" className="close">X</a>
-                    <h3 className="text-modal">Infusão</h3>
-                    <p className="text-modal">
-                      Feito em recipientes com o café já misturado com água
-                      quente (mas não fervente), introduz-se um filtro para
-                      separar o pó de café da bebida pronta. O mais popular é a
-                      Prensa Francesa.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="item-metodos">
-                <div className="img-metodos">
-                  <img
-                    src="assets/img/expresso.png"
-                    alt="metodo de preparo de cafe por pressao"
-                  />
-                </div>
-                <p>Pressão (Pressure)</p>
-                <a href="#openModal4">Como funciona?</a>
-
-                <div id="openModal4" className="modalDialog">
-                  <div>
-                    <a href="#close" title="Close" className="close">X</a>
-                    <h3 className="text-modal">Pressão</h3>
-                    <p className="text-modal">
-                      Popularmente chamado de café expresso, os grãos torrados
-                      são moídos na hora e o pó é colocado em um filtro com
-                      pressão de água a 90º C e 9kg de pressão por
-                      aproximadamente 30 segundos, o que resulta em uma bebida
-                      aromática e bem cremosa. É tido por muitos como o melhor
-                      dos tipos de preparo de café.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
+      <ListCards />
 
       <section>
         <div className="flex-container" id="curiosidade">
