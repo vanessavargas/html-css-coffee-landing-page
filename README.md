@@ -15,7 +15,7 @@ Este repositório foi utilizado para as atividades desenvolvidas durante o estud
 
 ## Tecnologias utilizadas
 
-- HTML
+- ~~HTML~~ ReactJS
 - CSS
 
 #### ✨ Desenvolvido por Vanessa Vargas ✨
