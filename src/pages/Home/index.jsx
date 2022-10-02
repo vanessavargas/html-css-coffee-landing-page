@@ -1,14 +1,15 @@
 import React from "react";
-import "../../css/style.css";
 import Footer from "./components/Footer";
 
 import Header from './components/Header';
 import ListCards from "./components/ListCards";
 
+import Colheres from "./assets/img/tipos.png";
+import Xicara from "./assets/img/cafe.png";
+
 export default function Home() {
     return (
-        <div className="App">
-            
+      <div className="App">
       <Header />
       <main>
       <section>
@@ -33,7 +34,7 @@ export default function Home() {
 
           <div>
             <div>
-              <img src="assets/img/cafe.png" alt="xícara de café" />
+              <img src={Xicara} alt="xícara de café" />
             </div>
           </div>
         </div>
@@ -60,12 +61,12 @@ export default function Home() {
           </div>
 
           <div>
-            <img src="assets/img/tipos.png" alt="colheres de café" />
+            <img src={Colheres} alt="colheres de café" />
           </div>
         </div>
       </section>
-
-      <ListCards />
+  
+     <ListCards />
 
       <section>
         <div className="flex-container" id="curiosidade">

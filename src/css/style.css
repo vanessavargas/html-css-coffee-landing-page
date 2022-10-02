@@ -169,10 +169,12 @@ header .menu {
 
 .list-metodos {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-direction: row;
 }
 
 .list-metodos .item-metodos {
+
   text-align: center;
 }
 
