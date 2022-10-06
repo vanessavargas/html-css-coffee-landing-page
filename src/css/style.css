@@ -1,3 +1,4 @@
+/* global */
 * {
   margin: 0;
   padding: 0;
@@ -19,22 +20,11 @@ body {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.header,
 .btn,
 .container-externo,
 .item-curiosidade h3::after,
 .footer {
   background: #7b341b;
-}
-
-.header ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.header ul li a {
-  text-decoration: none;
 }
 
 div img {
@@ -51,10 +41,26 @@ section {
   width: 100%;
 }
 
+/* header */
+.header {
+  background: #7b341b;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header ul li a {
+  text-decoration: none;
+}
+
 .header {
   height: 100px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   color: #5d2511;
 }
 
@@ -284,9 +290,7 @@ section {
   margin: 10% auto;
   padding: 5px 20px 13px 20px;
   border-radius: 10px;
-  background: -moz-linear-gradient(#fff, #999);
-  background: -webkit-linear-gradient(#fff, #999);
-  background: -o-linear-gradient(#fff, #999);
+  background: #fff
 }
 
 .item-metodos .modalDialog .text-modal {
