@@ -1,5 +1,5 @@
 import React from "react";
-import { getCards } from "./getCards";
+import { getCards }  from "../getCards";
 
 export default function Card(props) {
   const indice = props.indice;
