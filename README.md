@@ -6,13 +6,11 @@
 
 </div>
 
-O projeto pode ser visualizado neste [link](https://landing-page-cafe.vercel.app/).
+O deploy do projeto foi realizado no Vercel, e pode ser visualizado neste [link](https://landing-page-cafe.vercel.app/).
 
 ## Sobre
 
 Landing Page Café é uma página desenvolvida com HTML e CSS, onde inseri conhecimentos adquiridos nos estudos sobre Flexbox CSS. O tema escolhido, foi um assunto que gosto muito: o café. 
-
-O deploy foi realizado no Vercel.
 
 <div align="center">
 
