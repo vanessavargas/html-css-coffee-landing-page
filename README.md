@@ -1,25 +1,29 @@
-# Sobre o projeto
-
-O resultado final foi baseado no desafio de CSS Flexbox, no curso realizado na plataforma da DIO - Digital Inovation One. Foi utilizando a estrutura inicial fornecida, e para modificar o layout final, busquei criar uma página em torno de um assunto que gosto muito: o café! Além da pesquisa do conteúdo, alterei algumas estilizações, e adicionei a tag audio, para inseir som na página, e também pop-ups acionados pelos botões nos campos de preparo de café.
+# Landing Page Café
 
 <div align="center">
 
 ![Mockup-projeto](https://github.com/VanessaVargas/html-developer-DIO/blob/master/assets/img/mockup.png)
-![Vídeo-demo](https://github.com/VanessaVargas/html-developer-DIO/blob/master/assets/projeto-cafe.gif)
 
 </div>
 
-## O desenvolvimento
+O projeto pode ser visualizado neste [link](https://landing-page-cafe.vercel.app/).
 
-Este repositório foi utilizado para as atividades desenvolvidas durante o estudo do módulos com conteúdo de **HTML5, CSS3, Bootstrap e Flexbox**, realizados na plataforma da DIO - Digital Inovation One, tendo sido alterado ao longo dos meses, até chegar ao resultado apresentado. As propostas de cada etapa:
+## Sobre
 
-- HTML e CSS básico: elaboração de um currículo;
-- Bootstrap: elaboração de uma página de uma empresa;
-- Flexbox em CSS: criação de uma landpage (repositório com estrutura em html disponível em: https://gitlab.com/karensantos/project-flexbox-dio).
+A Landing Page Café é uma página em torno de um assunto que gosto muito: o café! Ela é o resultado final de estudos sobre Flexbox.
+
+O deploy foi realizado no Vercel.
+
+<div align="center">
+
+![Vídeo-demo](https://github.com/VanessaVargas/html-developer-DIO/blob/master/assets/projeto-cafe.gif)
+
+</div>
 
 ## Tecnologias utilizadas
 
 - HTML
 - CSS
+
 
 #### ✨ Desenvolvido por Vanessa Vargas ✨
