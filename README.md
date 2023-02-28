@@ -10,7 +10,7 @@ O projeto pode ser visualizado neste [link](https://landing-page-cafe.vercel.app
 
 ## Sobre
 
-A Landing Page Café é uma página em torno de um assunto que gosto muito: o café! Ela é o resultado final de estudos sobre Flexbox.
+Landing Page Café é uma página desenvolvida com HTML e CSS, onde inseri conhecimentos adquiridos nos estudos sobre Flexbox CSS. O tema escolhido, foi um assunto que gosto muito: o café. 
 
 O deploy foi realizado no Vercel.
 
