@@ -5,6 +5,7 @@
 }
 
 body {
+  width: 100%;
   background-color: #5d2511;
   background: #5d2511; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -42,7 +43,7 @@ div img {
   width: 100%;
 }
 
-section {
+.section {
   padding: 60px;
 }
 
@@ -78,6 +79,7 @@ header .list-items {
   color: white;
   font-weight: bold;
 }
+
 header .menu {
   justify-content: space-between;
 }
@@ -259,10 +261,10 @@ header .menu {
   background: #5d2511;
 }
 
-footer .footer {
+.footer {
   justify-content: space-between;
   color: white;
-  padding: 16px;
+  padding: 16px 0;
 }
 
 .modalDialog {
@@ -325,55 +327,67 @@ footer .footer {
 
 /*mobile*/
 @media (max-width: 992px) {
+
   .flex-container {
     flex-direction: column;
   }
+
   header {
     height: 120px;
   }
-  header div {
+
+  body, header div {
     align-items: center;
   }
+
+  footer { 
+    text-align: center;
+  }
+
   header audio {
     padding: 10px 10px;
   }
-  .apresentacao {
-    flex-direction: column-reverse;
-  }
-  .apresentacao .text-apresentacao {
-    width: 100%;
-  }
+
+  .apresentacao,
   #tipos-cafe {
     flex-direction: column-reverse;
   }
+
+  .apresentacao .text-apresentacao {
+    width: 100%;
+  }
+
   #tipos-cafe img {
     min-width: 320px;
     margin: auto;
   }
+
   .list-metodos {
     flex-direction: column;
   }
+
   .item-metodos .img-metodos {
     width: 40%;
     margin: auto;
   }
+
   .item-metodos .img-metodos img {
     width: 60%;
   }
+
   .list-curiosidade {
     flex-direction: column;
     align-items: flex-start;
   }
+
   .list-curiosidade .item-curiosidade {
     max-width: 90%;
     margin: auto;
     width: 100%;
     margin-bottom: 20px;
   }
+
   .modalDialog div {
     width: 300px;
-  }
-  footer {
-    text-align: center;
   }
 }
