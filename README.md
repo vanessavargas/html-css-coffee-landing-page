@@ -1,4 +1,4 @@
-# Landing Page Café
+# Coffee Landing Page
 
 <div align="center">
 
@@ -6,11 +6,11 @@
 
 </div>
 
-O deploy do projeto foi realizado no Vercel, e pode ser visualizado neste [link](https://landing-page-cafe.vercel.app/).
+The project has been deployed on Vercel and can be viewed at this [link](https://landing-page-cafe.vercel.app/).
 
-## Sobre
+## About
 
-Landing Page Café é uma página desenvolvida com HTML e CSS, onde inseri conhecimentos adquiridos nos estudos sobre Flexbox CSS. O tema escolhido, foi um assunto que gosto muito: o café. 
+Coffee Landing Page is a webpage developed using HTML and CSS, incorporating knowledge gained from studies on CSS Flexbox. The chosen theme reflects a subject I am passionate about: coffee.
 
 <div align="center">
 
@@ -18,10 +18,10 @@ Landing Page Café é uma página desenvolvida com HTML e CSS, onde inseri conhe
 
 </div>
 
-## Tecnologias utilizadas
+## Technologies Used
 
 - HTML
 - CSS
 
 
-#### ✨ Desenvolvido por Vanessa Vargas ✨
+#### ✨ Developed by Vanessa Vargas ✨
