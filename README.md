@@ -49,5 +49,10 @@ Feel free to explore the project structure. The assets folder houses the main st
 
 ## Get Started
 To get started, simply open the `index.html` file and immerse yourself in the world of coffee.
+<br/>
 <hr/>
-#### ✨ Developed by Vanessa Vargas ✨
+<div align="center">
+
+✨ Developed by Vanessa Vargas ✨
+
+</div>
