@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Mockup-projeto](https://github.com/VanessaVargas/html-developer-DIO/blob/master/assets/img/mockup.png)
+![Mockup-projeto](https://github.com/vanessavargas/html-css-coffee-landing-page/blob/master/assets/img/layout.png)
 
 </div>
 
