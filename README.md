@@ -10,7 +10,7 @@ The project has been deployed on Vercel and can be viewed at this [link](https:/
 
 ## About
 
-Coffee Landing Page is a visually appealing webpage meticulously crafted using HTML and CSS. The design incorporates advanced layout techniques, specifically leveraging the power of CSS Flexbox. The chosen theme revolves around a topic that holds a special place in my heart - coffee.
+Coffee Landing Page is a visually appealing webpage meticulously crafted using HTML and CSS. The design incorporates advanced layout techniques, specifically leveraging the power of CSS Flexbox. The chosen theme revolves around a topic that holds a special place in my heart - coffee. The development process took place in February 2023.
 
 <div align="center">
 
